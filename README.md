@@ -28,6 +28,17 @@ Acquisition premiums are central to M&A advisory, fairness opinions, and shareho
 
 ---
 
+## Selected Visualisations
+
+![Premium Distribution](results/figures/fig1_premium_distribution.png)
+![Deal Characteristics](results/figures/fig2_premium_by_deal_chars.png)
+![SHAP Global Importance](results/figures/fig9_shap_global_importance.png)
+![Finance Insights](results/figures/fig13_finance_insights.png)
+![Real Validation](results/figures/fig14_real_data_validation.png)
+![HPO History](results/figures/fig15_optuna_hpo.png)
+
+---
+
 ## Project Structure
 
 ```
