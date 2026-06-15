@@ -1,0 +1,16 @@
+deal_id,description,target,ann_date,actual,predicted,error,abs_error,source
+REAL-014,Microsoft acquires Nuance Communications,Nuance Communications (NUAN),2021-04-12,26.4,19.05,-7.35,7.35,Microsoft press release + NUAN DEF 14A Jun 2021
+REAL-002,Amazon acquires Whole Foods,Whole Foods (WFM),2017-06-16,27.0,40.35,13.35,13.35,Amazon press release + WFM DEF 14A filed Aug 2017
+REAL-004,AT&T acquires Time Warner,Time Warner (TWX),2016-10-22,36.0,28.71,-7.29,7.29,AT&T press release + TWX proxy filing Dec 2016
+REAL-013,Oracle acquires Cerner,Cerner (CERN),2021-12-20,36.8,37.58,0.78,0.78,Oracle press release + CERN DEF 14A Mar 2022
+REAL-011,Elon Musk acquires Twitter,Twitter (TWTR),2022-04-14,37.9,39.13,1.23,1.23,SEC 13D-A filing Apr 2022 + TWTR proxy statement
+REAL-005,CVS Health acquires Aetna,Aetna (AET),2017-12-03,39.8,34.16,-5.64,5.64,CVS/Aetna joint press release + AET DEF 14A Mar 2018
+REAL-007,AbbVie acquires Allergan,Allergan (AGN),2019-06-25,43.8,35.77,-8.03,8.03,AbbVie/Allergan joint press release + AGN DEF 14A Oct 2019
+REAL-003,Bayer acquires Monsanto,Monsanto (MON),2016-09-14,43.8,32.55,-11.25,11.25,Bayer/Monsanto joint press release + MON DEF 14A Oct 2016
+REAL-012,Broadcom acquires VMware,VMware (VMW),2022-05-26,44.0,26.4,-17.6,17.6,Broadcom press release + VMW DEF 14A Jul 2022
+REAL-010,Microsoft acquires Activision Blizzard,Activision Blizzard (ATVI),2022-01-18,45.3,37.13,-8.17,8.17,Microsoft press release + ATVI DEF 14A Apr 2022
+REAL-001,Microsoft acquires LinkedIn,LinkedIn (LNKD),2016-06-13,49.5,20.44,-29.06,29.06,Microsoft press release + DEF 14A filed Aug 2016
+REAL-015,Pfizer acquires Seagen,Seagen (SGEN),2023-03-13,49.7,33.46,-16.24,16.24,Pfizer press release + SGEN DEF 14A May 2023
+REAL-006,Bristol-Myers Squibb acquires Celgene,Celgene (CELG),2019-01-03,54.4,26.39,-28.01,28.01,BMS press release + CELG DEF 14A Apr 2019
+REAL-008,Salesforce acquires Slack,Slack (WORK),2020-12-01,55.4,32.25,-23.15,23.15,Salesforce press release + WORK DEF 14A Jan 2021
+REAL-009,IBM acquires Red Hat,Red Hat (RHT),2018-10-28,62.8,25.61,-37.19,37.19,IBM press release + RHT DEF 14A Jan 2019

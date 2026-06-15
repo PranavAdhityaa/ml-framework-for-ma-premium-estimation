@@ -1,0 +1,116 @@
+{
+  "original_shape": [
+    800,
+    43
+  ],
+  "steps": [
+    {
+      "step": "drop_duplicates",
+      "dropped": 0
+    },
+    {
+      "step": "filter_premium_bounds [-10, 120]",
+      "dropped": 0
+    },
+    {
+      "step": "drop_missing_premium",
+      "dropped": 0
+    },
+    {
+      "step": "impute_pe_ratio",
+      "method": "sector_median"
+    },
+    {
+      "step": "winsorize",
+      "columns": [
+        "ev_ebitda",
+        "debt_equity",
+        "net_debt_ebitda",
+        "pe_ratio",
+        "pb_ratio",
+        "rev_ebitda",
+        "revenue_growth",
+        "op_margin",
+        "fcf_yield",
+        "ret_12m",
+        "ret_6m",
+        "ret_3m",
+        "deal_val_bn"
+      ]
+    },
+    {
+      "step": "encode_categoricals",
+      "deal_type": "ordinal",
+      "sector": "one-hot (minus Utilities)"
+    },
+    {
+      "step": "time_based_split",
+      "train": "2000-2016",
+      "val": "2017-2019",
+      "test": "2020-2023"
+    }
+  ],
+  "final_shape": [
+    800,
+    57
+  ],
+  "null_counts_final": {
+    "deal_id": 0,
+    "target_id": 0,
+    "year": 0,
+    "month": 0,
+    "sector": 0,
+    "deal_type": 0,
+    "acquirer_type": 0,
+    "hostile": 0,
+    "num_bidders": 0,
+    "cross_border": 0,
+    "tender_offer": 0,
+    "deal_val_bn": 0,
+    "market_cap_bn": 0,
+    "ev_ebitda": 0,
+    "revenue_growth": 0,
+    "op_margin": 0,
+    "profit_margin": 0,
+    "gross_margin": 0,
+    "debt_equity": 0,
+    "net_debt_ebitda": 0,
+    "roe": 0,
+    "roa": 0,
+    "pe_ratio": 0,
+    "pb_ratio": 0,
+    "fcf_yield": 0,
+    "current_ratio": 0,
+    "analyst_rating": 0,
+    "analyst_upside": 0,
+    "vix_at_ann": 0,
+    "treasury_10y_at_ann": 0,
+    "sp500_at_ann": 0,
+    "market_cycle": 0,
+    "sector_ma_activity": 0,
+    "ret_1w": 0,
+    "ret_1m": 0,
+    "ret_3m": 0,
+    "ret_6m": 0,
+    "ret_12m": 0,
+    "pct_from_52w_high": 0,
+    "pct_from_52w_low": 0,
+    "premium_1d": 0,
+    "premium_1w": 0,
+    "premium_4w": 0,
+    "pe_ratio_missing": 0,
+    "deal_type_enc": 0,
+    "is_financial_buyer": 0,
+    "sec_Communication Services": 0,
+    "sec_Consumer Discretionary": 0,
+    "sec_Consumer Staples": 0,
+    "sec_Energy": 0,
+    "sec_Financials": 0,
+    "sec_Healthcare": 0,
+    "sec_Industrials": 0,
+    "sec_Materials": 0,
+    "sec_Real Estate": 0,
+    "sec_Technology": 0,
+    "split": 0
+  }
+}
