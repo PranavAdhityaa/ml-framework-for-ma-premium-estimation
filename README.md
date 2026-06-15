@@ -1,4 +1,4 @@
-# M&A Acquisition Premium Predictor
+# Machine Learning Framework for M&A Premium Estimation
 
 > **A machine learning framework for estimating fair acquisition premiums in M&A transactions using deal structure, target fundamentals, and macroeconomic conditions.**
 
